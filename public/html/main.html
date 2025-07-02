@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모바일 청첩장</title>
+    <link rel="stylesheet" href="../css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+    <script defer src="../script.js"></script>
+</head>
+<body>
+
+    <!-- 1️. 메인 섹션 -->
+    <section class="section main">
+      <!--
+   		<h1>Happy Wedding Day</h1>
+        <h2>최현덕</h2>
+        <h2>정은종</h2>
+        <p>2025년 5월 20일 (토) 오후 2시</p>
+        <p>청주에스가든 3층 르씨엘 단독홀</p>
+        -->
+    </section>
+    
+    <!-- 2️. 메인 문구 -->
+    <section class="section text">
+    	<div class="content intro">
+      		<h4>꽃피는 봄 3월 결혼합니다.</h4>
+      		</br>
+        	<p>특별한 것을 하지 않아도</p>
+        	<p>함께하면 행복한 사람과</p>
+        	<p>모든 것을 새롭게 시작하는 봄날 결혼합니다.</p>
+        	<p>축복해 주시면 감사하겠습니다.</p>
+    	</div>
+    	</br>
+    	</br>
+    	<div class="content name">
+    		<div class="man">
+    		<p>의 차남 <b>000</b></p>
+    		</div>
+		   	<div class="woman">
+		   	<p>의 장녀 <b>000</b></p>
+    		</div>
+    	</div>
+
+    </section>
+
+	<!-- 3. 연락처 -->
+	<section class="section phone">
+		<h3>축하 연락처</h3>
+		<ui class="man">
+			<li>신랑 000</li>
+			<li>부 000</li>
+			<li>모 000</li>
+		</ui>
+		<ui class="woman">
+			<li>신부 000</li>
+			<li>부 000</li>
+			<li>모 000</li>
+		</ui>
+	</section>
+	
+	<!-- 4. 축의금 -->
+	<section class="section bank">
+		<h3>축하의 마음 전하기</h3>
+		<p>직접 축하를 전하기 어려운 분들을 위해</p>
+		<p>계좌번호를 기재하였습니다.</p>
+		<p>넓은 마음으로 양해 부탁드립니다.</p>
+		</br>
+		<div class="man">
+			<button>신랑측 계좌번호</button>
+		</div>
+		</br>
+		<div class="woman">
+		<button>신부측 계좌번호</button>
+		</div>
+	</section>
+	
+	<!-- 5. 갤러리 -->
+	<section class="section map">
+	 	<p id="">사진</p> 
+	</section>
+
+    <!-- 6️. 오시는 길 -->
+    <section class="section map">
+        <h3>📍 오시는 길</h3>
+        <p id="placeName">청주에스가든</p> 
+        <p id="placeAddr">충북 청주시 서원구 1순환로 854</p>
+        <a href="tel:043-292-8285" id="placeNumber">043-292-8285</a>
+        <a href="tel:043-292-8285" id="placeNumber">📞전화문의</a>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3202.2563360491886!2d127.46491047637384!3d36.620215977823705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565299b0b63f67f%3A0xaec6fb02cec60fb6!2z7JeQ7Iqk6rCA65Og7Juo65SpIOyyreyjvA!5e0!3m2!1sko!2skr!4v1742210887350!5m2!1sko!2skr" 
+        width="60%" height="45%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p id="placeDrive">주차</p> 
+        <p id="placeDrive2">에스가든 웨딩 청주점 주차장</p>
+        <p id="placeDrive3">(무료 주차 2시간 50분)</p> 
+    </section>
+
+    <!-- 7. RSVP (참석 여부) -->
+    <section class="section rsvp">
+        <h3>📝 참석 여부 입력</h3>
+        </br>
+        <a href="https://docs.google.com/forms/d/e/폼_고유_주소/viewform" class="rsvp-button" target="_blank">
+            참석 여부 입력하기
+        </a>
+    </section>
+
+    <!-- 8. QR 코드 -->
+    <section class="section qr">
+        <h3>📲 QR 코드</h3>
+        <div id="qrcode"></div>
+    </section>
+
+    <!-- 9️. 카카오톡 공유 버튼 -->
+    <section class="section share">
+        <h3>📢 카카오톡으로 공유하기</h3>
+        <button id="kakao-share-btn">카카오톡 공유</button>
+    </section>
+    
+   <!-- 00. 프로필 -->
+    <section class="section profile" >
+        <div class="person">
+	        <img src="../img/현덕.png">
+	        <p>신랑 000</p>
+	        <p>1997년</p>
+	        <p>#다정한 ENFP</p>
+	        </br>
+	        <p>#로맨틱</p>
+	        <p>#섬세함</p>
+        </div>
+        <div class="person">
+	        <img src="../img/은종.png">
+	        <p>신부 000</p>
+	        <p>1997년</p>
+	        <p>#꼼꼼한 ESTJ</p>
+	        </br>
+	        <p>#계획적</p>
+	        <p>#현실주의자</p>
+        </div>
+    </section>
+
+</body>
+</html>

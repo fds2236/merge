@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>관리자 대시보드</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">WeddingLogo</div>
+        <div class="user-menu">
+            <span>관리자명</span>
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </header>
+    
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#" class="active">대시보드</a></li>
+            <li><a href="#">사용자 관리</a></li>
+            <li><a href="#">청첩장 관리</a></li>
+            <li><a href="#">통계 및 분석</a></li>
+            <li><a href="#">설정</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Main Content -->
+    <main class="content">
+        <div class="top-bar">
+            <h2>대시보드</h2>
+        <div class="search-bar">
+            <input type="text" placeholder="검색...">
+             <button class="btn-export"><i class="fas fa-file-excel"></i>검색</button>
+        </div>
+        </div>
+        <section class="cards">
+            <div class="card">
+                <h3>사용자 수</h3>
+                <p>33 / 334</p>
+            </div>
+            <div class="card">
+                <h3>사용자 요청 사항</h3>
+                <p>미처리 17건</p>
+            </div>
+            <div class="card">
+                <h3>랜섬웨어 탐지</h3>
+                <p>0 건</p>
+            </div>
+            <div class="card">
+                <h3>공지사항</h3>
+                <ul>
+                    <li>FAQ: 1</li>
+                    <li>Q&A: 4</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="charts">
+            <div class="chart">문서 사용 현황</div>
+            <div class="chart">서버 IO 통계</div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 CloudDoc. All rights reserved.</p>
+    </footer>
+</body>
+</html>

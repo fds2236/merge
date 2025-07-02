@@ -1,0 +1,23 @@
+/* reset.css - 기본 스타일 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    /*background-color: #f5f6fa;*/
+    background-color: #F6F9FA;  
+    color: #333; 
+}
+
+a {
+    text-decoration: none; /* 링크 밑줄 제거 */
+    color: inherit; /* 부모의 텍스트 색상 상속 */
+}
+
+/* 리스트 스타일 초기화 */
+ul, ol {
+    list-style: none; /* 리스트 항목 기호 제거 */
+}
